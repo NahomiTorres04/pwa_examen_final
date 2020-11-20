@@ -2,24 +2,21 @@
    <div id="fotos" class="text-center">
       <div class="container">
         <div class="row">
-          <div class="twelve columns txt">
-            <h3>Lorem, ipsum dolor.</h3>
+        </div>
+        <div class="row">
+          <div class="six columns foto">
+            <h2>Autenticación REST API</h2>
+          </div>
+          <div class="six columns foto">
+            <h2>Tecnologias Front-End</h2>
           </div>
         </div>
         <div class="row">
           <div class="six columns foto">
-            <h2>Lorem, ipsum.</h2>
+            <h2>Arquitectura Web</h2>
           </div>
           <div class="six columns foto">
-            <h2>Lorem, ipsum.</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="six columns foto">
-            <h2>Lorem, ipsum.</h2>
-          </div>
-          <div class="six columns foto">
-            <h2>Lorem, ipsum.</h2>
+            <h2>CMS</h2>
           </div>
         </div>
       </div>
@@ -82,20 +79,20 @@ export default {
         margin: 30px;
     }
     #fotos .container .row:nth-child(2) .foto:nth-child(1){
-        background-image: url(../../assets/img/fondo6.jpg);
+        background-image: url(https://arandasoft.com/wp-content/uploads/2016/10/seguridad.png);
     }
     #fotos .container .row:nth-child(2) .foto:nth-child(2){
-        background-image: url(../../assets/img/fondo7.jpg);
+        background-image: url(https://miro.medium.com/max/1200/1*0FAbAXug4XMepL7fGIvXFg.png);
     }
     #fotos .container .row:nth-child(3){
         height: 100%;
         margin: 30px;
     }
     #fotos .container .row:nth-child(3) .foto:nth-child(1){
-        background-image: url(../../assets/img/fondo2.jpg);
+        background-image: url(https://edgarbc.files.wordpress.com/2014/02/501f9-cliente-servidor.png?w=676);
     }
     #fotos .container .row:nth-child(3) .foto:nth-child(2){
-        background-image: url(../../assets/img/fondo1.jpg);
+        background-image: url(https://www.departamentodeinternet.com/wp-content/uploads/2011/05/cms-2.jpg);
     }
 
 

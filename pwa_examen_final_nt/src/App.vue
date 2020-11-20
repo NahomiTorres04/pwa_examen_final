@@ -2,7 +2,10 @@
 <div id="app">
     <Header></Header>
     <router-view>
-      <Contacto></Contacto>
+      <Arquitectura></Arquitectura>
+      <Tecnologias></Tecnologias>
+      <Autententicacion></Autententicacion>
+      <Cms></Cms>
     </router-view>
     <Footer></Footer>
   </div>
@@ -12,15 +15,22 @@
 import Header from './components/Header'
 import Home from './components/Home'
 import Footer from './components/Footer'
-import Contacto from './components/Contacto'
+import Arquitectura from './components/Arquitectura'
+import Tecnologias from './components/Tecnologias'
+import Autenticacion from './components/Autenticacion'
+import Cms from './components/Cms'
+
 
 export default {
   name: 'app',
   components: {
     Header,
     Home,
-    Footer, 
-    Contacto
+    Footer,
+    Arquitectura,
+    Tecnologias,
+    Cms,
+    Autenticacion
   }
 }
 </script>

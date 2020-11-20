@@ -6,10 +6,8 @@
             <p>
               <strong>¡Bienvenido!</strong>
               <br>
-              Deseamos que pases las mejores vacaciones junto a nosotros 
+              En este sitio se encuentra un poco del contenido aprendido en programación web URL 2020
               <br />
-              <br />
-              <button>RESERVA YA</button>
             </p>
           </div>
         </div>
@@ -27,7 +25,7 @@ export default {
 
     #banner{
         height: auto;
-        background-image: url(../../assets/img/fheader.jpg);
+        background-image: url(https://revo300.academy/wp-content/uploads/2019/12/blur-close-up-code-computer-546819-1080x675.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: repeat;

@@ -1,17 +1,17 @@
-<template>
+/<template>
   <div id="contacto" class="text-center">
       <div class="container">
         <div class="row">
           <div class="tarjeta">
-            <input type="search" name="buscar" id="search" value="Buscar" />
+            <h5>19/20/2020</h5>
           </div>
           <div class="tarjeta">
             <h1>NT</h1>
           </div>
           <div class="tarjeta">
-            <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="">universidad Rafael landivar</a>
+            <a href="">Facultad de ingeniería</a>
+            <a href="">Ingeniería en informática y sistemas</a>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@ export default {
           display: inline-block;
           text-decoration: none;
           padding: 10px;
-          width: 22px;
+          width: 200px;
           transition: all 0.3s linear;
     }
     #contacto .container .row .tarjeta:nth-child(3) a:hover{

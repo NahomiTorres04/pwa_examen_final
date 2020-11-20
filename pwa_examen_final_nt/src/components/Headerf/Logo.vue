@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="item">
-          <h1>Nahomi Torres</h1>
-          <p>Blog de diseño</p>
+          <h1>Lilian Nahomi Torres Gonzalez</h1>
+          <p>Carné: 1510116</p>
         </div>
       </div>
     </div>
@@ -42,9 +42,9 @@ export default {
 }
 .container .row .item p {
   font-family: var(--font-content);
-  font-size: 15px;
+  font-size: 25px;
   color: var(--color-fuente-logo-contenido);
-  margin-bottom: 0;
+  margin: 0;
 }
  @media screen and (max-width: 700px){
    #Logo{

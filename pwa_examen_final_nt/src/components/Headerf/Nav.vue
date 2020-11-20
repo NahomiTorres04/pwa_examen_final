@@ -1,29 +1,11 @@
 <template>
     <nav>
         <ul>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Productos</a></li>
-            <li class="submenu">
-                <a href="#">Categorias<i class="fas fa-caret-down"></i></a>
-                <ul class="children">
-                    <li><a href="#">SubElemento #1</a></li>
-                    <li><a href="#">SubElemento #2</a></li>
-                    <li><a href="#">SubElemento #3</a></li>
-                </ul>
-            </li>
+            <li><router-link to="/arquitecturas">Arquitectura web</router-link></li>
+            <li><router-link to="/tecnologias">Tecnologías Front-End</router-link></li>
             <router-link class="link-home" to="/">NT</router-link>
-            <li><a href="#">Inicia Sesión</a></li>
-            <li class="submenu">
-                <a href="#">Catalogos<i class="fas fa-caret-down"></i></a>
-                <ul class="children">
-                    <li><a href="#">SubElemento #1</a></li>
-                    <li><a href="#">SubElemento #2</a></li>
-                    <li><a href="#">SubElemento #3</a></li>
-                    <li><a href="#">SubElemento #2</a></li>
-                    <li><a href="#">SubElemento #3</a></li>
-                </ul>
-            </li>
-            <li><router-link to="/contacto">Contacto</router-link></li>
+            <li><router-link  to="/autenticacion">Métodos de autenticación</router-link></li>
+            <li><router-link to="/cms">CMS</router-link></li>
         </ul>
     </nav>
 </template>
